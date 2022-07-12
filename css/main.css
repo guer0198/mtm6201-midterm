@@ -6,7 +6,6 @@ body{
 .container{
     width: 390px;
     margin: auto;
-    background-color: aliceblue;
 }
 nav ul{
     background-color: #292840;
@@ -51,17 +50,28 @@ li img{
     width: 100px;
 }
 
-.box{
+.box, .gallery{
     width: 390px;
     display: grid;
     text-align: center;
 }
 
-.box img{
-    width: 300px;
+.box img, .gallery img{
+    width: 390px;
     margin: auto;
 }
 
 figure{
     margin: 0;
+    margin-top: 10px;
+    margin-bottom: 6px;
+}
+
+picture img{
+    width: 390px;
+}
+
+footer{
+    margin-top: 18px;
+    text-align: center;
 }
