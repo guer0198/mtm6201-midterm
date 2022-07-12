@@ -64,6 +64,10 @@ nav a:focus{
     animation: rotation 3s ease-in-out;
   }
   
+form{
+    text-align: left;
+}
+
   @keyframes rotation {
     from {
       transform: rotate(0deg);
@@ -118,6 +122,27 @@ picture img, .contact img, iframe{
     width: 390px;
 }
 
+textarea {
+    width: 100%;
+    border-radius: 2px;
+    margin: 6px 0;
+    resize: none;
+}
+
+#message {
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+input[type=submit] {
+    background-color: #138c9a;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    width: 15%;
+    margin-bottom: 10px;
+}
 
 footer{
     margin-top: 18px;
@@ -184,6 +209,12 @@ footer{
 
     .photo{
         padding: 8px;
+    }
+
+    form{
+        margin: auto;
+        width: 90%;
+        margin-bottom: 30px;
     }
 
 }
