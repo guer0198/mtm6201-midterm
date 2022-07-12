@@ -45,8 +45,12 @@ li img{
     width: 100px;
 }
 
-.welcome{
+.box{
     width: 390px;
     display: grid;
     text-align: center;
+}
+
+.box img{
+    width: 390px;
 }
