@@ -63,7 +63,7 @@ li img{
     width: 100px;
 }
 
-.welcome, .store, .getintouch, .wrapper{
+.welcome, .store, .getintouch, .wrapper, .photos{
     width: 390px;
     display: grid;
     text-align: center;
@@ -100,7 +100,7 @@ picture img, .contact img, iframe{
     margin-top: 5px;
 }
 
-.wrapper img{
+.wrapper img, .photos img{
     width: 390px;
 }
 
@@ -157,12 +157,18 @@ footer{
         height: 485px;
     }
 
-    .wrapper img{
+    .photo img{
         width: 350px;
     }
 
-    .wrapper .photos{
-        
+    .photos{
+        grid-template-rows: 350px 350px;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: baseline;
+    }
+
+    .photo{
+        padding: 8px;
     }
 
 }
