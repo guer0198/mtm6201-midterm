@@ -66,6 +66,8 @@ nav a:focus{
   
 form{
     text-align: left;
+    width: 90%;
+    padding: 10px;
 }
 
   @keyframes rotation {
@@ -213,7 +215,6 @@ footer{
 
     form{
         margin: auto;
-        width: 90%;
         margin-bottom: 30px;
     }
 
